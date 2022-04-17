@@ -1,4 +1,7 @@
-
+#p222=pAAAAAA;p221=pAAAAAa;p220=pAAAAaa;p210=pAAAaaa;p200=pAAaaaa;p100=pAaaaaa;p000=paaaaaa，p3=pAAA;p2=pAAa;p1=pAaa;p0=paaa
+#gamete-based test. 
+#Under HWE, genotype frequencies are expressed as the products of gamete frequencies, which are thought to be the expected genotype frequencies. 
+#Let PAAA(t), PAAa(t), PAaa(t), and Paaa(t) denote the frequencies of four gametes that produce zygotic genotypes at generation t
 rm(list = ls())
 yww <- c()
 for(j in 1){
