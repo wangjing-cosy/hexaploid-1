@@ -1,3 +1,6 @@
+#randomly sample an array of genotype frequencies P(0) = (0.1, 0.05, 0.2, 0.25, 0.13, 0.1, 0.17) as initial values and plot generation-varying frequencies under  = 0, 1/7, 1/5, 3/11 (Fig. 1A). 
+#find that unlike a case in diploids using one generation to attain HWE, all genotype frequencies in hexaploids will not reach absolute equilibrium, rather tend to be stable after 8 – 9 generations of random mating, as opposed to 5 – 6 generations in tetraploids. 
+
 library(RColorBrewer)
 y <- c()
 for(j in 1:6){
